@@ -1,0 +1,5 @@
+[EVERBACK]
+download=True
+notePath=/path/where/note.xml/will/be/stored
+dataPath=/path/where/attachments/will/be/stored
+authToken=evernote-oauth-token
