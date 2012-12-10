@@ -113,7 +113,7 @@ for notebook in notebooks:
   filter.notebookGuid = notebook.guid
   notesList = noteStore.findNotes(authToken, filter, 0, 9999)
 
-  print "Saving " + str(len(notesList.notes)) + " notes from notebook " + noptebook.name + "."
+  print "Saving " + str(len(notesList.notes)) + " notes from notebook " + notebook.name + "."
   for note in notesList.notes:
 
     # Create node for note with all attributes
